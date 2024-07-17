@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorModule", "ElevatorModule\ElevatorModule.csproj", "{35E899AA-E5C2-4CC9-A156-2BD4FB2737A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralElevatorSystem", "CentralElevatorSystem\CentralElevatorSystem.csproj", "{1420FED5-52BB-459A-83FA-49079532E8DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
