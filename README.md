@@ -31,7 +31,7 @@ The Elevator Challenge project covers the below...
   
   As per the name 
           CentralElevatorSystem module caters for above functionalities/features related to "Central Elevator System". 
-				  ElevatorModule module caters for above functionalities/features related to "Elevator Service".
+	  ElevatorModule module caters for above functionalities/features related to "Elevator Service".
       	  ElevatorSolution module is the console app for user interaction.
           ElevatorSolution.Test module cater for unit tests for both CentralElevatorSystem and ElevatorModule modules.
           
