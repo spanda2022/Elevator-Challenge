@@ -10,3 +10,5 @@
 /ElevatorSolution/bin/Debug/net6.0
 /ElevatorSolution/obj
 /ElevatorSolution/bin/Release/net6.0
+/ElevatorSolution.Test/bin
+/ElevatorSolution.Test/obj
