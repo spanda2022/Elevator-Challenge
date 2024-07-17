@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorModule", "ElevatorM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralElevatorSystem", "CentralElevatorSystem\CentralElevatorSystem.csproj", "{1420FED5-52BB-459A-83FA-49079532E8DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSolution", "ElevatorSolution\ElevatorSolution.csproj", "{51E7A74D-1E59-47F8-875E-A1FD4CC862FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
