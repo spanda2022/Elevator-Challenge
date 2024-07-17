@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" modified="2024-07-16T08:29:26.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="WL7FQEPeocEIxZ4C3UW2" version="24.6.5" type="device">
+  <diagram name="Page-1" id="1LeytnChhvdAnwP8nHlg">
+    <mxGraphModel dx="1877" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SNCA4P-qrLBvoDZxsPpj-1" target="SNCA4P-qrLBvoDZxsPpj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-1" value="CentralElevatorSystem (Initialize 5 Elavators of type passanger in the central elavator system)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-398" y="20" width="296" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-2" value="RequestElevator (pass requested floor. from the list of elavators which one is available/stationary and return the Elevator object for the available elavator.)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="120" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SNCA4P-qrLBvoDZxsPpj-4" target="SNCA4P-qrLBvoDZxsPpj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-4" value="CallElevator (calls the RequestElevator method to return the elavator object and then call the&amp;nbsp;MoveToFloorAsync method of ElevatorService)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="120" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SNCA4P-qrLBvoDZxsPpj-5" target="SNCA4P-qrLBvoDZxsPpj-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="250" />
+              <mxPoint x="684" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-5" value="DisplayElevatorStatuses (displays elavator status of all the elavators in the central elevator system and call the GetStatus method od ElevatorSerive to&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="120" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.744;entryY=-0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SNCA4P-qrLBvoDZxsPpj-1" target="SNCA4P-qrLBvoDZxsPpj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.346;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SNCA4P-qrLBvoDZxsPpj-1" target="SNCA4P-qrLBvoDZxsPpj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SNCA4P-qrLBvoDZxsPpj-12" target="SNCA4P-qrLBvoDZxsPpj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SNCA4P-qrLBvoDZxsPpj-12" target="SNCA4P-qrLBvoDZxsPpj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SNCA4P-qrLBvoDZxsPpj-12" target="SNCA4P-qrLBvoDZxsPpj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SNCA4P-qrLBvoDZxsPpj-12" target="SNCA4P-qrLBvoDZxsPpj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-12" value="ElevatorService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="20" width="296" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-13" value="MoveToFloorAsync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="158" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-14" value="AddPassenger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-15" value="RemovePassenger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-18" value="GetStatus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="639" y="120" width="89" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SNCA4P-qrLBvoDZxsPpj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.568;entryY=1.07;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SNCA4P-qrLBvoDZxsPpj-4" target="SNCA4P-qrLBvoDZxsPpj-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="300" />
+              <mxPoint x="226" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
