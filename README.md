@@ -35,4 +35,4 @@ The Elevator Challenge project covers the below...
       	  ElevatorSolution module is the console app for user interaction.
           ElevatorSolution.Test module cater for unit tests for both CentralElevatorSystem and ElevatorModule modules.
           
-  There is a flow diagram attached to the solution.
+  There is a flow diagram attached to the solution(ElevatorDiagram.drawio).
