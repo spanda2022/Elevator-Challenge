@@ -40,3 +40,6 @@ The Elevator Challenge project covers the below...
   Also to test the unit tests, the appsettings.json needs to be added to the respective sub folder of bin folder.
           
  There is a flow diagram attached to the solution(ElevatorDiagram.drawio).
+ 
+ To run the solution locally, please make sure the modules or projects in the solution should have "Debug" as the configuration selected.
+ 
