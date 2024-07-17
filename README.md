@@ -35,7 +35,7 @@ The Elevator Challenge project covers the below...
       	  ElevatorSolution module is the console app for user interaction.
           ElevatorSolution.Test module cater for unit tests for both CentralElevatorSystem and ElevatorModule modules.
 	  
-  Added the appsettings.json in the project, which will help to configure the app before the run. Please add these files to the respective sub folder of bin folder before running the console app.
+  Added the appsettings.json in the ElevatorSolution project, which will help to configure the app before the run. Please add these files to the respective sub folder of bin folder before running the console app.
   
   Also to test the unit tests, the appsettings.json needs to be added to the respective sub folder of bin folder.
           
